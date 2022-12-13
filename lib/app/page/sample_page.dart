@@ -34,12 +34,12 @@ class SamplePage extends GetView<SamplePageController> {
           Container(
             height: 100,
             color: Colors.green,
-            child: Center(child: Text("Page 1")),
+            child: const Center(child: Text("Page 1")),
           ),
           Container(
             height: 100,
             color: Colors.blue,
-            child: Center(child: Text("Page 2")),
+            child: const Center(child: Text("Page 2")),
           ),
         ],
       ),
